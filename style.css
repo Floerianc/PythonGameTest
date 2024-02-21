@@ -1,0 +1,21 @@
+QPushButton {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+    min-width: 80px;
+    margin: 50px;
+}
+
+QPushButton:pressed {
+    color: #9c2525;
+    background-color: #9c2525;
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
